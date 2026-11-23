@@ -1,0 +1,18 @@
+Selección de Datasets y Definición del Problema
+Para el desarrollo del proyecto se partió de dos conjuntos de datos georreferenciados (con coordenadas de latitud y longitud) correspondientes a la Ciudad Autónoma de Buenos Aires: 
+por un lado, el registro histórico de delitos ocurridos en la ciudad y, por otro, el relevamiento de la infraestructura de alumbrado público. 
+Con el objetivo de enriquecer cada incidente con información del entorno urbano, se realizó una integración espacial entre ambos datasets mediante la estructura de búsqueda por vecinos más cercanos (KD-Tree), 
+asociando cada hecho delictivo con las características de luminaria más próximas.
+
+Evolución del objetivo y enfoque de modelado: 
+Inicialmente, el proyecto buscaba predecir qué tipo de delito ocurriría en cada punto de la ciudad durante el mes siguiente. 
+Sin embargo, durante el análisis exploratorio se observó que la gran mayoría de los registros correspondían a hurtos, 
+lo que convertía a esta categoría en la problemática predominante y generaba un fuerte sesgo en cualquier clasificación multiclase.
+A partir de este hallazgo, se reformuló el problema hacia una clasificación binaria enfocada en determinar la probabilidad de que un incidente ocurrido en una ubicación y franja horaria determinadas corresponda a un hurto. 
+Para resolverlo, se entrenó un modelo de Random Forest contemplando la cantidad total de delitos registrados en la zona y la distribución horaria de los robos y hurtos. 
+Esta configuración permitió realizar simulaciones sobre una misma coordenada geográfica a lo largo de las distintas horas del día (evaluando su evolución en bloques de 12 horas) 
+para observar cómo varía la probabilidad delictiva según el momento de la jornada.
+Asimismo, los resultados permitieron cuestionar el mito de que los delitos se concentran principalmente de noche o en zonas con menor alumbrado: 
+por el contrario, se evidenció que el mayor pico de hurtos ocurre alrededor del mediodía (12:00 hs) y que los hechos tienden a concentrarse en puntos con mayor circulación y aglomeración de personas 
+—coincidiendo muchas veces con sectores bien iluminados—, lo que reafirma la elección de un algoritmo no lineal capaz de capturar estas dinámicas urbanas complejas.
+
