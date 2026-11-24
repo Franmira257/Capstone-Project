@@ -17,8 +17,13 @@ Para automatizar la ejecución del flujo de punta a punta y facilitar la actuali
 5.	Actualización del dashboard interactivo (Módulo 6 — Apify: Run an Actor): Finalmente, se ejecuta un segundo Actor de Apify que construye/actualiza el dashboard interactivo, logrando que cada corrida del escenario en Make refresque automáticamente los datos visualizados.<p>
 
 <h1>Links a los datasets usados: </h1><p>
+<h3>Dataset "Limpio": </h3>
 https://drive.google.com/file/d/1G0lBDkArGDSzf2mnJt4Aerqcsj4IICCE/view?usp=drive_link<p>
+<h3>Datasets "Crudos": </h3>
 https://drive.google.com/file/d/1GDtIzAXRb5mmS1G-pjJuVHuRPX6YTcCn/view?usp=drive_link<p>
 https://drive.google.com/file/d/17cdk4b-NNz4d4SL3di9zwoVC5q4dAIMR/view?usp=drive_link<p>
+<h3>Links a los datasets originales: </h3>
 https://data.buenosaires.gob.ar/dataset/alumbrado-led<p>
 https://mapa.seguridadciudad.gob.ar/<p>
+<h3>Dataset de resultados: </h3>
+https://drive.google.com/file/d/1w4aFcSeHQlvptYgtZxWHYCeBq5l8k4Bv/view?usp=drivesdk<p>
