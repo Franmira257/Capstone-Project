@@ -1,5 +1,6 @@
-<img width="917" height="563" alt="make2" src="https://github.com/user-attachments/assets/b47ecca6-1bf2-4283-a2da-60bad55331a9" />
 <img width="920" height="777" alt="make1" src="https://github.com/user-attachments/assets/cf6ff6a3-9aa8-4379-b8b7-697112d02919" />
+<img width="917" height="563" alt="make2" src="https://github.com/user-attachments/assets/b47ecca6-1bf2-4283-a2da-60bad55331a9" />
+
 Automatización del Pipeline en Make (Google Drive + Apify)<p>
 Para automatizar la ejecución del flujo de punta a punta y facilitar la actualización periódica de la información, se diseñó un escenario en Make que conecta Google Drive con Apify: <p>
 1.	Descarga de datasets de entrada (Módulos 1 y 2 — Google Drive: Download a File): Se recuperan los archivos en formato CSV desde la carpeta de Google Drive correspondiente (el dataset de delitos y el de alumbrado público). El uso de CSV permite trabajar con archivos ligeros y estandarizados, facilitando que al reemplazar el archivo de delitos por una versión más reciente el flujo siga operando sin fricciones. <p>
