@@ -15,3 +15,8 @@ Para automatizar la ejecución del flujo de punta a punta y facilitar la actuali
 3.	Recuperación de resultados (Módulo 4 — Apify: Get Dataset Items): Una vez finalizada la ejecución del Actor, se extraen los registros procesados y las predicciones generadas desde el dataset de salida de Apify. <p>
 4.	Respaldo en Drive en formato CSV (Módulo 5 — Google Drive: Upload a File): El resultado se guarda como archivo CSV en Google Drive, brindando un acceso cómodo y centralizado a los datos generados para consulta o auditoría. <p>
 5.	Actualización del dashboard interactivo (Módulo 6 — Apify: Run an Actor): Finalmente, se ejecuta un segundo Actor de Apify que construye/actualiza el dashboard interactivo, logrando que cada corrida del escenario en Make refresque automáticamente los datos visualizados.<p>
+
+<h1>Links a los datasets usados: </h1><p>
+https://drive.google.com/file/d/1G0lBDkArGDSzf2mnJt4Aerqcsj4IICCE/view?usp=drive_link<p>
+https://drive.google.com/file/d/1GDtIzAXRb5mmS1G-pjJuVHuRPX6YTcCn/view?usp=drive_link<p>
+https://drive.google.com/file/d/17cdk4b-NNz4d4SL3di9zwoVC5q4dAIMR/view?usp=drive_link<p>
