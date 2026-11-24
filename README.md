@@ -20,3 +20,5 @@ Para automatizar la ejecución del flujo de punta a punta y facilitar la actuali
 https://drive.google.com/file/d/1G0lBDkArGDSzf2mnJt4Aerqcsj4IICCE/view?usp=drive_link<p>
 https://drive.google.com/file/d/1GDtIzAXRb5mmS1G-pjJuVHuRPX6YTcCn/view?usp=drive_link<p>
 https://drive.google.com/file/d/17cdk4b-NNz4d4SL3di9zwoVC5q4dAIMR/view?usp=drive_link<p>
+https://data.buenosaires.gob.ar/dataset/alumbrado-led<p>
+https://mapa.seguridadciudad.gob.ar/<p>
